@@ -1,0 +1,60 @@
+.top {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    text-align: center;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 8px;
+
+    font-weight: 900;
+    font-size: 20px;
+
+    
+}
+
+.bottom {
+    font: 56px;
+}
+
+.results {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-score-left {
+    border: 3px solid black;
+    width: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.computer-score-right {
+    border: 3px solid black;
+    width: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.winner {
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+}
